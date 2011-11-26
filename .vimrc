@@ -1,0 +1,10 @@
+syntax enable
+set nu
+set ruler
+set hlsearch
+set incsearch
+set showcmd
+set expandtab
+set tabstop=4
+set cindent
+set shiftwidth=4
