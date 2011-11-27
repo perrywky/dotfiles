@@ -5,3 +5,7 @@ let NERDTreeChDirMode=2
 
 "隐藏工具栏
 set guioptions-=T
+
+"command-t
+nmap ,t :CommandT<CR>
+nmap ,b :CommandTBuffer<CR>
