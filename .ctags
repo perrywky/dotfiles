@@ -1,0 +1,10 @@
+-f ./tags
+--langmap=php:+.ctp
+-h '.ctp'
+-R
+--totals=yes
+--tag-relative=yes
+--PHP-kinds=+cf-v
+--regex-PHP
+--regex-PHP=/(^|^[^*]+[[:blank:]])class[[:blank:]]+([[:alpha:]][[:alnum:]_]*)/\2/c/
+--regex-PHP=/(^|^[^*]+[[:blank:]])function[[:blank:]]+&?[[:blank:]]*([[:alpha:]][[:alnum:]_]*)/\2/f/
