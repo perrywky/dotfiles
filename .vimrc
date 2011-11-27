@@ -8,3 +8,7 @@ set expandtab
 set tabstop=4
 set cindent
 set shiftwidth=4
+
+"pathogen
+call pathogen#infect()
+filetype plugin indent on
