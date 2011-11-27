@@ -9,3 +9,9 @@ set guioptions-=T
 "command-t
 nmap ,t :CommandT<CR>
 nmap ,b :CommandTBuffer<CR>
+
+"自动打开taglist
+autocmd VimEnter * TlistToggle
+let Tlist_Show_One_File=1
+let Tlist_Use_Right_Window=1
+let Tlist_Compact_Format=1
