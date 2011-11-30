@@ -12,3 +12,6 @@ set shiftwidth=4
 "pathogen
 call pathogen#infect()
 filetype plugin indent on
+
+" PHP parser check (CTRL-L)
+autocmd FileType php noremap <C-L> :!/usr/local/bin/php -l %<CR>
