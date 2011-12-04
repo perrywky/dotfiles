@@ -1,6 +1,4 @@
 -f ./tags
---langmap=php:+.ctp
--h '.ctp'
 -R
 --totals=yes
 --tag-relative=yes
