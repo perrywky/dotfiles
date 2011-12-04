@@ -15,3 +15,6 @@ filetype plugin indent on
 
 " PHP parser check (CTRL-L)
 autocmd FileType php noremap <C-L> :!/usr/local/bin/php -l %<CR>
+
+" set ctp files to php & html filetype
+au BufRead,BufNewFile *.ctp        set filetype=php.html
