@@ -20,3 +20,5 @@ autocmd FileType php noremap <C-L> :!/usr/bin/php -l %<CR>
 
 " set ctp files to php & html filetype
 au BufRead,BufNewFile *.ctp        set filetype=php.html
+
+colorscheme molokai
