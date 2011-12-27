@@ -1,13 +1,18 @@
 syntax enable
 set nu
 set ruler
+set showcmd
+
 set hlsearch
 set incsearch
-set showcmd
-set expandtab
+set ignorecase
+set smartcase
+
+set nowrap
 set tabstop=4
-set cindent
 set shiftwidth=4
+set expandtab
+set cindent
 
 set fileencodings=ucs-bom,utf-8,cp936,gbk,big5,euc-jp,euc-kr,latin1
 
