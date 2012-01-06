@@ -27,3 +27,5 @@ autocmd FileType php noremap <C-L> :!/usr/bin/php -l %<CR>
 au BufRead,BufNewFile *.ctp        set filetype=php.html
 
 colorscheme molokai
+
+let g:snips_author = 'Perry'
