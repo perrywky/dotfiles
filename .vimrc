@@ -8,7 +8,6 @@ set incsearch
 set ignorecase
 set smartcase
 
-set nowrap
 set tabstop=4
 set shiftwidth=4
 set expandtab
@@ -26,6 +25,7 @@ autocmd FileType php noremap <C-L> :!/usr/bin/php -l %<CR>
 " set ctp files to php & html filetype
 au BufRead,BufNewFile *.ctp        set filetype=php.html
 
+let g:molokai_original = 1
 colorscheme molokai
 
 let g:snips_author = 'Perry'
