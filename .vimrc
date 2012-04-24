@@ -15,6 +15,8 @@ set cindent
 
 set fileencodings=ucs-bom,utf-8,cp936,gbk,big5,euc-jp,euc-kr,latin1
 
+set ffs=unix
+
 "pathogen
 call pathogen#infect()
 filetype plugin indent on
