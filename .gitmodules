@@ -6,4 +6,4 @@
 	url = git://git.wincent.com/command-t.git
 [submodule ".vim/bundle/snipmate"]
 	path = .vim/bundle/snipmate
-	url = git://github.com/msanders/snipmate.vim.git
+	url = git@github.com:perrywky/snipmate.vim.git
