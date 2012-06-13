@@ -1,3 +1,5 @@
+set nu
+
 "自动打开nerdtree
 autocmd VimEnter * NERDTree
 let NERDTreeShowBookmarks=1

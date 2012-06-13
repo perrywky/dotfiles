@@ -1,5 +1,4 @@
 syntax enable
-set nu
 set ruler
 set showcmd
 
