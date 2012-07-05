@@ -30,3 +30,5 @@ let g:molokai_original = 1
 colorscheme molokai
 
 let g:snips_author = 'Perry'
+
+let mapleader = ','
