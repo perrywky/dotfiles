@@ -9,8 +9,8 @@ let NERDTreeChDirMode=2
 set guioptions-=T
 
 "command-t
-nmap ,t :CommandT<CR>
-nmap ,b :CommandTBuffer<CR>
+nmap <Leader>t :CommandT<CR>
+nmap <Leader>b :CommandTBuffer<CR>
 
 "自动打开taglist
 "autocmd VimEnter * TlistToggle
