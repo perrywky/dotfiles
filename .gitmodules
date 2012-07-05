@@ -10,3 +10,6 @@
 [submodule ".vim/bundle/autoclose"]
 	path = .vim/bundle/autoclose
 	url = git://github.com/Townk/vim-autoclose
+[submodule ".vim/bundle/SuperTab-continued"]
+	path = .vim/bundle/SuperTab-continued
+	url = git://github.com/vim-scripts/SuperTab-continued..git
