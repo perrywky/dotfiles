@@ -12,6 +12,8 @@ set shiftwidth=4
 set expandtab
 set cindent
 
+autocmd FileType ruby set tabstop=2|set shiftwidth=2
+
 set fileencodings=ucs-bom,utf-8,cp936,gbk,big5,euc-jp,euc-kr,latin1
 
 set ffs=unix
