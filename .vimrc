@@ -13,6 +13,7 @@ set expandtab
 set cindent
 
 autocmd FileType ruby set tabstop=2|set shiftwidth=2
+autocmd FileType php set tabstop=4|set shiftwidth=4
 
 set fileencodings=ucs-bom,utf-8,cp936,gbk,big5,euc-jp,euc-kr,latin1
 
