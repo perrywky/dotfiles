@@ -1,3 +1,4 @@
 --color
+--color-filename=red
 --type-add=php=.ctp
 
