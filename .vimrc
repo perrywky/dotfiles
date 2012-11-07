@@ -40,3 +40,7 @@ nmap <Leader>a= :Tabularize /=<CR>
 vmap <Leader>a= :Tabularize /=<CR>
 nmap <Leader>a: :Tabularize /:\zs<CR>
 vmap <Leader>a: :Tabularize /:\zs<CR>
+
+let g:syntastic_loc_list_height=5
+let g:syntastic_check_on_open=1
+nmap <Leader>stt :Errors <CR>
