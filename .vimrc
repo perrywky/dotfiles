@@ -27,7 +27,7 @@ filetype plugin indent on
 autocmd FileType php noremap <C-L> :!/usr/bin/php -l %<CR>
 
 " set ctp files to php & html filetype
-au BufRead,BufNewFile *.ctp        set filetype=php.html
+au BufRead,BufNewFile *.ctp        set filetype=html.php
 
 let g:molokai_original = 1
 colorscheme molokai
@@ -42,5 +42,4 @@ nmap <Leader>a: :Tabularize /:\zs<CR>
 vmap <Leader>a: :Tabularize /:\zs<CR>
 
 let g:syntastic_loc_list_height=5
-let g:syntastic_check_on_open=1
 nmap <Leader>stt :Errors <CR>
