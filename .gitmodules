@@ -22,9 +22,6 @@
 [submodule ".vim/bundle/rails"]
 	path = .vim/bundle/rails
 	url = git://github.com/tpope/vim-rails.git
-[submodule ".vim/bundle/zencoding"]
-	path = .vim/bundle/zencoding
-	url = git://github.com/mattn/zencoding-vim.git
 [submodule ".vim/bundle/matchit"]
 	path = .vim/bundle/matchit
 	url = git://github.com/tsaleh/vim-matchit.git
