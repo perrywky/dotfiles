@@ -43,3 +43,12 @@ vmap <Leader>a: :Tabularize /:\zs<CR>
 
 let g:syntastic_loc_list_height=5
 nmap <Leader>stt :Errors <CR>
+
+" for html
+autocmd FileType html noremap <buffer> <c-k> :call HtmlBeautify()<cr>
+" for js
+autocmd FileType javascript noremap <buffer>  <c-k> :call JsBeautify()<cr>
+" for css or scss
+autocmd FileType css noremap <buffer> <c-k> :call CSSBeautify()<cr>
+" for js in html
+autocmd FileType html vnoremap <buffer> <c-k> :call RangeJsBeautify()<cr>
