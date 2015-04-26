@@ -17,16 +17,3 @@ nmap <Leader>b :CommandTBuffer<CR>
 let Tlist_Show_One_File=1
 let Tlist_Use_Right_Window=1
 let Tlist_Compact_Format=1
-
-" Display extra whitespace
-set list listchars=tab:»·,trail:·
-
-" Make it obvious where 80 characters is
-set textwidth=80
-set colorcolumn=+1
-highlight ColorColumn guibg=gray29
-
-" Highlight current line
-au WinLeave * set nocursorline
-au WinEnter * set cursorline
-set cursorline
