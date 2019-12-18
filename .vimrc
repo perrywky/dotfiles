@@ -1,6 +1,7 @@
 syntax enable
 set ruler
 set showcmd
+set nu
 
 set hlsearch
 set incsearch
@@ -12,46 +13,7 @@ set shiftwidth=4
 set expandtab
 set cindent
 
-autocmd FileType ruby set tabstop=2|set shiftwidth=2
-autocmd FileType php set tabstop=4|set shiftwidth=4
-
-set fileencodings=ucs-bom,utf-8,cp936,gbk,big5,euc-jp,euc-kr,latin1
+set encoding=utf-8
+set fileencoding=utf-8
 
 set ffs=unix
-
-"pathogen
-call pathogen#infect()
-filetype plugin indent on
-
-" PHP parser check (CTRL-L)
-autocmd FileType php noremap <C-L> :!/usr/bin/php -l %<CR>
-
-" set ctp files to php & html filetype
-au BufRead,BufNewFile *.ctp        set filetype=html.php
-au BufRead,BufNewFile *.html.erb        set filetype=html
-
-let g:molokai_original = 1
-colorscheme molokai
-
-let g:snips_author = 'Perry'
-
-let mapleader = ','
-
-nmap <Leader>a= :Tabularize /=<CR>
-vmap <Leader>a= :Tabularize /=<CR>
-nmap <Leader>a: :Tabularize /:\zs<CR>
-vmap <Leader>a: :Tabularize /:\zs<CR>
-
-let g:syntastic_loc_list_height=5
-nmap <Leader>stt :Errors <CR>
-
-" for html
-autocmd FileType html noremap <buffer> <c-k> :call HtmlBeautify()<cr>
-" for js
-autocmd FileType javascript noremap <buffer>  <c-k> :call JsBeautify()<cr>
-" for css or scss
-autocmd FileType css noremap <buffer> <c-k> :call CSSBeautify()<cr>
-" for js in html
-autocmd FileType html vnoremap <buffer> <c-k> :call RangeJsBeautify()<cr>
-
-let g:CommandTWildIgnore=&wildignore . ",**/public/assets/*,**/tmp/*"
